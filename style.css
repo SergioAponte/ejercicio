@@ -1,0 +1,56 @@
+*{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+}
+
+html,body{
+          height: 100%;
+          width: 100%;
+}
+header{
+          text-align: center;
+          font-size: 2rem;
+          font-weight: 900;
+          letter-spacing: 4px;
+}
+.menu{
+    padding: 5px 0px 5px 5px;
+    display: flex;
+    gap: 50px;
+    list-style: none;
+          
+}
+.product{
+    width: 100%;
+    border: 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product_card{
+    border: solid 1px;
+    width: 200px;
+    height: 400px;
+}
+.product_title{
+    border: solid 1px;
+    height: 10%;
+
+}
+.product_image{
+    border: solid 1px;
+    height: 30%;
+}
+.product_description{
+    border: solid 1px;
+    height: 30%;
+}
+.product_price{
+    border: solid 1px;
+    height: 10%;
+}
+.product_button{
+    border: solid 1px;
+    height: 20%;
+}
